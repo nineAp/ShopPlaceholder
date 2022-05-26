@@ -13,7 +13,7 @@ function Header() {
     const dispatch = useDispatch()
 
     const searchString = useRef()
-    
+
     const search = () => {
         dispatch(setSeachedGames(games.filter(game => game.title.includes(searchString.current.value))))
         navigate(SEARCH_PATH + '/1')
