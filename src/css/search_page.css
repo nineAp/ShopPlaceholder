@@ -1,0 +1,6 @@
+.search_res_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}

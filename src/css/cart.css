@@ -1,0 +1,67 @@
+.cart_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+  }
+  
+  .cart_content h1 {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    text-shadow: 2px 2px 50px #D9D9D9;
+    font-weight: 300;
+    text-shadow: 0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 41px greenyellow,
+    0 0 82px greenyellow,
+    0 0 105px greenyellow,
+    0 0 124px gold,
+    0 0 150px gold;
+  }
+  
+  
+  .cart_games {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+  }
+  
+  .cart_page_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    gap: 25px;
+  }
+  
+  .cart_page_footer button {
+    width: 50%;
+    font-size: 2rem;
+    background-color: black;
+    border: 3px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    box-shadow: 0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 41px greenyellow;
+  }
+  
+  .cart_page_footer button:hover {
+    background-color: green;
+    transition: all .3s ease-in;
+  }
+  
+  .cart_page_footer h2{
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 50px greenyellow;
+  }

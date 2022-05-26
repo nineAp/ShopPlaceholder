@@ -1,0 +1,46 @@
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  text-shadow: 0 0 3px #fff,
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 41px greenyellow,
+  0 0 82px greenyellow,
+  0 0 105px greenyellow,
+  0 0 124px gold,
+  0 0 150px gold;
+}
+
+.topic {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px #fff,
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 41px greenyellow,
+  0 0 82px greenyellow,
+  0 0 105px greenyellow,
+  0 0 124px gold,
+  0 0 150px gold;
+}
+
+.sub_topic {
+  color: #fff;
+  text-shadow: 2px 2px black;
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-shadow: 0 0 3px #fff,
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 41px greenyellow,
+  0 0 82px greenyellow,
+  0 0 105px greenyellow,
+  0 0 124px gold,
+  0 0 150px gold;
+}
+

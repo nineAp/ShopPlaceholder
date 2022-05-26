@@ -1,0 +1,51 @@
+.cart_game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    border: 3px solid greenyellow;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .cart_game img {
+    width: 100%;
+    flex-grow: 0;
+    border: 3px solid white;
+    box-shadow: 0 0 15px greenyellow;
+  }
+  
+  .delete_btn {
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+    cursor: pointer;
+    flex-grow: 1;
+    padding-top: 10%;
+  }
+  
+  
+  .delete_btn:hover {
+    background-color: green;
+  
+  }
+  
+  .cart_game_middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 2;
+  }
+  
+  .cart_game_middle h2 {
+    font-weight: 400;
+  }
+  
+  .cart_game_middle h3 {
+    font-weight: 300;
+  }

@@ -1,0 +1,56 @@
+.home_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .home_content h1 {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 41px greenyellow,
+    0 0 82px greenyellow,
+    0 0 105px greenyellow,
+    0 0 124px gold,
+    0 0 150px gold;
+  }
+  
+  .hc_button {
+    border: 2px solid #D9D9D9;
+    width: 50%;
+    height: auto;
+    min-height: 10vh;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    transition: all .2s ease-in;
+    box-shadow: 0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 41px greenyellow,
+    0 0 82px greenyellow;
+  }
+  
+  .hc_button:hover {
+    background-color: green;
+    transition: all .2s ease-in;
+  }
+  
+  .hc_button Link {
+    text-decoration-line: none;
+  }
+  
+  .game_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  

@@ -1,0 +1,44 @@
+.cats_filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-top: 50px;
+    border: 3px solid white;
+    padding: 50px;
+    box-shadow: 0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 12px #fff;
+
+}
+
+.cats_filter_scrollable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 250px;
+    gap: 5%;
+}
+
+.categories_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cats_btn {
+    width: 20vw;
+    height: 50px;
+    border: 3px solid #fff;
+    background-color: black;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.cats_btn:hover {
+    background-color: green;
+    transition: all .3s ease-in;
+}
+

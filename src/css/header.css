@@ -1,0 +1,133 @@
+.header {
+    background-color: black;
+    height: 10vh;
+  }
+  
+  .header_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10vh;
+    gap: 5%;
+  } 
+  
+  .header_content nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+  }
+  
+  .header_link {
+    color: #fff;
+    text-decoration-line: none;
+    font-size: 100%;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  
+  .header_link:hover {
+    color: greenyellow;
+  }
+
+  .search {
+    display: flex;
+    gap: 15px;
+  }
+
+  .search_input {
+    background-color: black;
+    border: 2px solid #fff;
+    color: #fff;
+    padding-left: 15px;
+    border-radius: 15px;
+    margin-left: 5%;
+    outline: none;
+  }
+
+  .search_btn {
+    background-color: black;
+    color: #fff;
+    border: 1px solid greenyellow;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .search_btn:hover {
+    background-color: green;
+  }
+
+  .search_input:focus {
+    border: 2px solid greenyellow;
+  }
+  
+  .cart_link {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    padding-right: 20px;
+  }
+  
+  .cart_link span {
+    font-size: 2rem;
+  }
+  
+  
+  .cart_number_circle {
+    background-color: greenyellow;
+    border-radius: 30px;
+    height: 2rem;
+    width: 2rem;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 3px #fff,
+    0 0 5px #fff;
+  }
+
+  .cart_number_circle h4 {
+    font-size: 1.3rem;
+  }
+  
+  
+  
+  @media screen and (max-width: 900px) {
+    .header {
+      height: auto;
+    }
+  
+    .header_content {
+      position: relative;
+      right: 10%;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+    }
+  
+  
+    .cart_link {
+      position: relative;
+      bottom: 9.5rem;
+      left: 3rem;
+    }
+  
+    .header_content nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 150%;
+    }
+
+    .search {
+      margin-top: 20px;
+    }
+  }
+  
