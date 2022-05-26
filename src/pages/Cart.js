@@ -14,6 +14,9 @@ function Cart() {
     console.log(games)
   }
 
+
+  //Hello)
+
   useEffect(() => {
     document.title = app_name + 'Cart'
     window.scrollTo(0, 0)
